@@ -1,0 +1,227 @@
+/* General Page Styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2e2f2f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #00d9ff;
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  flex-grow: 1;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile Image */
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-section img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #00d9ff;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Section Containers */
+/* Container for Biography and Education Side-by-Side */
+.bio-edu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 900px;
+  margin-bottom: 35px;
+}
+
+/* Individual Section inside the Flex Container */
+.bio-edu-container > section {
+  flex: 1 1 45%;
+  background-color: #3c3c3c;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings Inside Each Box */
+.bio-edu-container h2 {
+  margin-top: 0;
+  color: #00d9ff;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #00d9ff;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+
+#about, #projects, #contact {
+  background-color: #3c3c3c;
+  width: 90%;
+  max-width: 900px;
+  padding: 25px;
+  margin-bottom: 35px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#about h2, #projects h2, #contact h2 {
+  margin-top: 0;
+  color: #00d9ff;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00d9ff;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* Project Card Styling */
+.project {
+  background-color: #4d4d4d;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #90e0ef;
+}
+
+.project p {
+  margin: 10px 0;
+}
+
+.project a {
+  color: #56c7ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+  color: #00d9ff;
+}
+
+/* Contact Info Links */
+#contact a {
+  color: #56c7ff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #00d9ff;
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: auto;
+}
+/* Projects Section */
+#projects {
+  background-color: #3c3c3c;
+  width: 90%;
+  max-width: 900px;
+  padding: 25px;
+  margin-bottom: 35px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#projects h2 {
+  margin-top: 0;
+  color: #00d9ff;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00d9ff;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Individual Project Card */
+.project {
+  background-color: #4d4d4d;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #90e0ef;
+  font-size: 1.4rem;
+}
+
+.project p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.project a {
+  color: #56c7ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+  color: #00d9ff;
+}
