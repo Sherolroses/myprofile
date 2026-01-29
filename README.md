@@ -15,10 +15,3 @@ This is my personal profile website built with HTML and CSS. It includes my biog
 - CSS3
 - Optional: JavaScript (might add it later)
 
-## 📂 Getting Started
-
-To view the site locally:
-
-1. Clone this repository  
-```bash
-git clone https://github.com/sherolroses/mYproFile.git
