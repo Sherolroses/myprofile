@@ -13,5 +13,4 @@ This is my personal profile website built with HTML and CSS. It includes my biog
 
 - HTML5
 - CSS3
-- Optional: JavaScript (might add it later)
-
+ JavaScript 
